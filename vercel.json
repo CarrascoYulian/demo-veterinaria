@@ -1,9 +1,15 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/",
       "has": [{ "type": "host", "value": "demo-veterinaria-beta.vercel.app" }],
-      "destination": "https://veterinaria-rd.vercel.app/:path*",
+      "destination": "https://veterinaria-rd.vercel.app/",
+      "permanent": true
+    },
+    {
+      "source": "/:path+",
+      "has": [{ "type": "host", "value": "demo-veterinaria-beta.vercel.app" }],
+      "destination": "https://veterinaria-rd.vercel.app/:path+",
       "permanent": true
     }
   ],
