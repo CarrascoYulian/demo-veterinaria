@@ -1,0 +1,124 @@
+{
+  "clinicName": "Tu Nombre Aquí",
+  "slogan": "Tu slogan aquí",
+  "logoText": "TN",
+  "logoUrl": "",
+  "heroImage": "https://images.unsplash.com/photo-1623387641168-d9803ddd3f35",
+  "primaryColor": "#0F766E",
+  "secondaryColor": "#EA580C",
+  "fontFamily": "Inter",
+  "address": "Tu dirección aquí",
+  "phone": "(809) 000-0000",
+  "email": "tu@correo.com",
+  "hours": "Tu horario aquí",
+  "timezone": "America/Santo_Domingo",
+  "slotMinutes": 15,
+  "bookingDaysAhead": 30,
+  "notificationChannel": "whatsapp",
+  "reminderHoursBefore": 24,
+  "adminPin": "1234",
+  "seed": 2026,
+  "services": [
+    {
+      "id": "consulta",
+      "name": "Consulta general",
+      "durationMin": 30,
+      "professionalIds": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "id": "vacunacion",
+      "name": "Vacunación",
+      "durationMin": 15,
+      "professionalIds": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "id": "desparasitacion",
+      "name": "Desparasitación",
+      "durationMin": 15,
+      "professionalIds": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "id": "bano",
+      "name": "Baño y corte",
+      "durationMin": 60,
+      "professionalIds": [
+        "p3"
+      ]
+    },
+    {
+      "id": "cirugia",
+      "name": "Cirugía menor",
+      "durationMin": 90,
+      "professionalIds": [
+        "p2"
+      ]
+    },
+    {
+      "id": "emergencia",
+      "name": "Emergencia",
+      "durationMin": 30,
+      "professionalIds": [
+        "p1",
+        "p2"
+      ]
+    }
+  ],
+  "professionals": [
+    {
+      "id": "p1",
+      "name": "Dra. Laura Méndez",
+      "specialty": "Medicina general",
+      "workDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "startTime": "08:00",
+      "endTime": "17:00",
+      "lunchStart": "12:00",
+      "lunchEnd": "13:00"
+    },
+    {
+      "id": "p2",
+      "name": "Dr. Ramón Ortiz",
+      "specialty": "Cirugía y medicina interna",
+      "workDays": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "startTime": "09:00",
+      "endTime": "18:00",
+      "lunchStart": "13:00",
+      "lunchEnd": "14:00"
+    },
+    {
+      "id": "p3",
+      "name": "Yesenia Abreu",
+      "specialty": "Estética y grooming",
+      "workDays": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "startTime": "08:30",
+      "endTime": "16:30",
+      "lunchStart": "12:30",
+      "lunchEnd": "13:30"
+    }
+  ]
+}

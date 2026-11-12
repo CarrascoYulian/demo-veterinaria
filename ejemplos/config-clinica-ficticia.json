@@ -1,0 +1,123 @@
+{
+  "clinicName": "Clínica Veterinaria Patitas Felices",
+  "slogan": "Cuidamos a tu mejor amigo como familia",
+  "logoText": "PF",
+  "logoUrl": "",
+  "heroImage": "https://images.unsplash.com/photo-1623387641168-d9803ddd3f35",
+  "primaryColor": "#1D4ED8",
+  "secondaryColor": "#F97316",
+  "fontFamily": "Poppins",
+  "address": "Av. Sarasota #45, Bella Vista, Santo Domingo",
+  "phone": "(809) 555-0142",
+  "email": "citas@patitasfelices.example.com",
+  "hours": "Lunes a viernes 8:00 a. m. - 6:00 p. m. · Sábados 9:00 a. m. - 1:00 p. m.",
+  "timezone": "America/Santo_Domingo",
+  "slotMinutes": 15,
+  "bookingDaysAhead": 30,
+  "notificationChannel": "whatsapp",
+  "reminderHoursBefore": 24,
+  "adminPin": "1234",
+  "seed": 7,
+  "services": [
+    {
+      "id": "consulta",
+      "name": "Consulta general",
+      "durationMin": 30,
+      "professionalIds": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "id": "vacunacion",
+      "name": "Vacunación",
+      "durationMin": 15,
+      "professionalIds": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "id": "desparasitacion",
+      "name": "Desparasitación",
+      "durationMin": 15,
+      "professionalIds": [
+        "p1"
+      ]
+    },
+    {
+      "id": "bano",
+      "name": "Baño y corte",
+      "durationMin": 60,
+      "professionalIds": [
+        "p3"
+      ]
+    },
+    {
+      "id": "cirugia",
+      "name": "Cirugía menor",
+      "durationMin": 90,
+      "professionalIds": [
+        "p2"
+      ]
+    },
+    {
+      "id": "emergencia",
+      "name": "Emergencia",
+      "durationMin": 30,
+      "professionalIds": [
+        "p1",
+        "p2"
+      ]
+    }
+  ],
+  "professionals": [
+    {
+      "id": "p1",
+      "name": "Dra. Paola Jiménez",
+      "specialty": "Medicina general",
+      "workDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "startTime": "08:00",
+      "endTime": "18:00",
+      "lunchStart": "12:00",
+      "lunchEnd": "13:00"
+    },
+    {
+      "id": "p2",
+      "name": "Dr. Héctor Santana",
+      "specialty": "Cirugía",
+      "workDays": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "lunchStart": "13:00",
+      "lunchEnd": "14:00"
+    },
+    {
+      "id": "p3",
+      "name": "Wendy Polanco",
+      "specialty": "Grooming",
+      "workDays": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "startTime": "08:30",
+      "endTime": "16:00",
+      "lunchStart": "12:30",
+      "lunchEnd": "13:00"
+    }
+  ]
+}
